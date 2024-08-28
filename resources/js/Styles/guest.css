@@ -1,0 +1,49 @@
+*{margin: 0; padding: 0;}
+.guestcontainer{
+    width: 100%;
+}
+.guestmain{
+    width: 100%;
+    min-height: 400px;
+    padding-top: 30px;
+    background: url('https://msstudio.ci/Imagesmsstudio/msstudiobackground.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-attachment:scroll; */
+}
+.guestmenu{
+    width: 85%;
+    margin-left: auto;margin-right: auto;
+    height: 50px;
+    background-color: #ffdd00e7;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.guestundermenufirst{
+    width: 75%;
+    height: 4px;
+    margin-left: auto;margin-right: auto;
+    background-color: rgb(255, 255, 255);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.guestundermenusecond{
+    width: 85%;
+    height: 200px;
+    margin-left: auto;margin-right: auto;
+    background-color: rgba(250, 68, 67, 0.8);
+    border-radius: 20px;
+    border-bottom: rgb(255, 254, 254) solid 2px;
+}
+.guestchildren{
+    width: 100%;
+    /* margin-top: 40px; */
+}
+
+@media screen and (min-width:300px) and (max-width: 767px) {
+    
+}
+
+@media screen and (min-width:768px) and (max-width: 1024px) {
+    
+}
