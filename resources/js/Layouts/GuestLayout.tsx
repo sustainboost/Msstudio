@@ -20,7 +20,11 @@ export default function Guest({ children }: PropsWithChildren) {
 
                     </div>
                     <div className="guestundermenufirst">... COMMING SOON ...</div>
-                    {/* <div className="guestundermenusecond"></div> */}
+                    <div className="guestundermenusecond"
+                        onClick={() => window.open('/webmail' ,"_self")}
+                    >
+                        Espace email
+                    </div>
 
                 </div>
 
