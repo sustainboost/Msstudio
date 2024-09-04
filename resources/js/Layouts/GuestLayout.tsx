@@ -8,9 +8,19 @@ export default function Guest({ children }: PropsWithChildren) {
         <>
             <div className="guestcontainer">
                 <div className="guestmain">
-                    <div className="guestmenu"></div>
-                    <div className="guestundermenufirst"></div>
-                    <div className="guestundermenusecond"></div>
+                    <div className="guestmenu">
+                        <div className='guestmenuimage'>
+                            <img src="https://msstudio.ci/Imagesmsstudio/newlogo.png" alt="Ms' Studio"
+                            onClick={() => window.open('/' ,"_self")}
+                            />
+                        </div>
+                        {/* <div className="guestmenuimage">H</div>
+                        <div className="guestmenuimage">M</div>
+                        <div className="guestmenuimage">L</div> */}
+
+                    </div>
+                    <div className="guestundermenufirst">... COMMING SOON ...</div>
+                    {/* <div className="guestundermenusecond"></div> */}
 
                 </div>
 

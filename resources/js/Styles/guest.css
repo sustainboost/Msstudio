@@ -5,9 +5,10 @@
 .guestmain{
     width: 100%;
     /* min-height: 300px; */
-    padding-top: 10px;
+    /* padding-top: 10px; */
     padding-bottom: 10px;
-    background: url('https://msstudio.ci/Imagesmsstudio/msstudiobackground.jpg');
+    /* background-color: black; */
+    /* background: url('https://msstudio.ci/Imagesmsstudio/msstudiobackground.jpg'); */
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
@@ -16,26 +17,55 @@
 }
 
 .guestmenu{
-    width: 85%;
+    width: 100%;
     margin-left: auto;margin-right: auto;
-    height: 50px;
-    background-color: #ffdd00e7;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+    min-height: 150px;
+    background-color: #040300;
+    display: flex;
+    align-items: center;align-content: center;justify-content: center;
+    /* border-top-left-radius: 20px;
+    border-top-right-radius: 20px; */
+}
+.guestmenuimage{
+    width: 25%;
+    align-items: center;
+    align-content: center;justify-content: center;display: flex;
+}
+.guestmenuimage img{
+    width: 30%;
+    cursor: pointer;
+    transition: 0.5s;
+    border-radius: 50%;
+
+}
+.guestmenuimage img:hover{
+    background-color: aliceblue;
+    border-radius: 50%;
+    transition: 0.5s;
+    border-top: #000 solid 2px;
+    border-bottom: #000 solid 2px;
+
 }
 .guestundermenufirst{
-    width: 75%;
-    height: 4px;
+    width: 60%;
+    height: 80px;
     margin-left: auto;margin-right: auto;
-    background-color: rgb(255, 255, 255);
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    background-color: rgb(255, 191, 0);
+    border-radius: 15px;
+    position:relative;
+    top: -30px;
+    border-top: #9a0d00 solid 2px;
+    display: flex; align-items: center;align-content: center;justify-content: center;
+    font-size: 20px;
+    color: #fff;
+    font-weight: bolder;
+    /* border-top-right-radius: 10px; */
 }
 .guestundermenusecond{
     width: 85%;
     height: 200px;
     margin-left: auto;margin-right: auto;
-    background-color: rgba(250, 68, 67, 0.8);
+    background-color: rgba(11, 0, 0, 0.8);
     border-radius: 20px;
     border-bottom: rgb(255, 254, 254) solid 2px;
 }
