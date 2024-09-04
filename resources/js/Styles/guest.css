@@ -75,6 +75,43 @@
 }
 
 @media screen and (min-width:300px) and (max-width: 767px) {
+    .guestmenu{
+        width: 100%;
+        margin-left: auto;margin-right: auto;
+        min-height: 80px;
+        background-color: #040300;
+        display: flex;
+        align-items: center;align-content: center;justify-content: center;
+        /* border-top-left-radius: 20px;
+        border-top-right-radius: 20px; */
+    }
+    .guestmenuimage{
+        width: 25%;
+        align-items: center;
+        align-content: center;justify-content: center;display: flex;
+    }
+    .guestmenuimage img{
+        width: 60%;
+        cursor: pointer;
+        transition: 0.5s;
+        border-radius: 50%;
+    
+    }
+    .guestundermenufirst{
+        width: 80%;
+        height: 40px;
+        margin-left: auto;margin-right: auto;
+        background-color: rgb(255, 191, 0);
+        border-radius: 15px;
+        position:relative;
+        top: -15px;
+        border-top: #9a0d00 solid 2px;
+        display: flex; align-items: center;align-content: center;justify-content: center;
+        font-size: 15px;
+        color: #fff;
+        font-weight: bolder;
+        /* border-top-right-radius: 10px; */
+    }
     
 }
 
