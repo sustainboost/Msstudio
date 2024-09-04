@@ -1,6 +1,7 @@
 import ApplicationLogo from '@/Components/ApplicationLogo';
 import { Link } from '@inertiajs/react';
 import { PropsWithChildren } from 'react';
+import Logo from '@/images/LOGO.png'
 import '@/Styles/guest.css'
 
 export default function Guest({ children }: PropsWithChildren) {
@@ -10,7 +11,7 @@ export default function Guest({ children }: PropsWithChildren) {
                 <div className="guestmain">
                     <div className="guestmenu">
                         <div className='guestmenuimage'>
-                            <img src="https://msstudio.ci/Imagesmsstudio/newlogo.png" alt="Ms' Studio"
+                            <img src={Logo} alt="Ms' Studio"
                             onClick={() => window.open('/' ,"_self")}
                             />
                         </div>
