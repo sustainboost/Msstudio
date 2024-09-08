@@ -26,6 +26,11 @@ export default function Guest({ children }: PropsWithChildren) {
                     >
                         Espace email
                     </div>
+                    <div className="guestundermenusecond"
+                        onClick={() => window.open('/login' ,"_self")}
+                    >
+                        Se connecter
+                    </div>
 
                 </div>
 
